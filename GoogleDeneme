@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 35px;
+            font-style: italic;
+        }
+
+        .anaBar {
+            background-color: rgb(234, 234, 233);
+        }
+
+        .altBar {
+            background-color: aqua;
+        }
+
+        .special {
+            color: white;
+            align-self: left;
+            display: block;
+        }
+
+        .split {
+
+            width: 33.33%;
+            float: left;
+            border: 1px;
+        }
+        .a{
+            text-align: center;
+        }
+
+        </style>
+</head>
+<body>
+    <center>
+        <img src="google.jpg" alt="Google">
+
+        <div class="anaBar">
+            <p>
+            <h3>Search the web using Google!</h3>
+            </p>
+            <textarea name="" id="" cols="40" rows="1"></textarea>
+        </div>
+
+
+        <div class="search">
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+        </div>
+
+
+    </center>
+            <div style="width: 1200px; height: 100px; padding: 10px; background-color:aqua">
+                <center>
+                <div style="width:33%; height: 100%;">
+                    <div class="split">
+
+                        <a>Special Searches</a>
+                        <br>
+                        <a href="">Stanford Search</a>
+                        <br>
+                        <a href="">Linux Search</a>
+
+                    </div>
+
+                    <div class="split">
+
+                        <a href="">Help!</a>
+                        <br>
+                        <a href="">About Google!</a>
+                        <br>
+                        <a href="">Company Info</a>
+                        <br>
+                        <a href="">Google! Logos</a>
+
+                    </div>
+
+                    <div class="split">
+
+                        <a>Get Google!</a>
+                        <br>
+                        <a>updates monthly:</a>
+                        <br>
+                        <textarea cols="20" rows="1"></textarea>
+                        <br>
+                        <button>Subscribe</button>
+                        <a href="">Archive</a>
+
+                    </div>
+
+                </div>
+            </center>
+            </div>
+
+
+
+
+<center>
+    <p>Copyright © 1998 Google Inc.</p>
+</center>
+    
+        
+
+
+
+
+</body>
+
+</html>
